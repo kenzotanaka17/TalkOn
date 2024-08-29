@@ -17,7 +17,7 @@ export function Chat() {
 
     return (
         <div className={styles.container}>
-            <SideBar page='training'/>
+            <SideBar />
             <section className={styles.chatBox}>
                 <h1><span><img src={logo} alt="Logo eureka" /></span>Eureka</h1>
                 <hr />
